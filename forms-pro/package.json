@@ -1,6 +1,6 @@
 {
   "name": "@dashflowx/forms-pro",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Pro form fields. Publish only to GitHub Packages.",
   "repository": {
     "type": "git",
@@ -14,8 +14,8 @@
     "registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
-    "@dashflowx/forms": ">=0.1.0",
-    "@dashflowx/core": ">=2.0.125",
+    "@dashflowx/forms": ">=1.0.0",
+    "@dashflowx/core": ">=3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

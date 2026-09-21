@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.0 — 2026-09-21
+
+First publish. Same contents as the 0.1.0 local scaffold (M01–M05).
+
 ## 0.1.0 — 2026-09-21
 
 - Scaffold Vite + Storybook + TypeScript strict (M01).

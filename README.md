@@ -2,7 +2,7 @@
 
 Zod + react-hook-form on `@dashflowx/core` primitives. Editor uses the same JSON schema.
 
-C08 has not published core 3.0.0 yet. Local develop uses `file:../dashflowx-core` (npm link equivalent).
+C08 has not published `@dashflowx/core@1.0.0` yet (new npm account). Local develop uses `file:../dashflowx-core`.
 
 ```bash
 cd dashflow-forms

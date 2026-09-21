@@ -1,6 +1,6 @@
 {
   "name": "@dashflowx/forms",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc && vite build && vite build --config vite.pro.config.ts",
+    "build": "node scripts/ensure-core.mjs && tsc && vite build && vite build --config vite.pro.config.ts",
     "build:pro": "vite build --config vite.pro.config.ts",
     "test": "vitest run && node scripts/check-pro-boundary.mjs",
     "pack:inspect": "node scripts/pack-inspect.mjs . && node scripts/pack-inspect.mjs forms-pro",
@@ -29,7 +29,7 @@
     "build-storybook": "storybook build"
   },
   "peerDependencies": {
-    "@dashflowx/core": ">=3.0.0 || >=2.0.125",
+    "@dashflowx/core": ">=3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
