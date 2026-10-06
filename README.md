@@ -21,3 +21,11 @@ No database. Invalid email fails Zod closed.
 | `@dashflowx/forms-pro` | Repeater / wizard / file stubs (private) |
 
 Do not `npm publish` until X05 (M06).
+
+## Run locally
+
+- Start: `yarn install && yarn test && yarn storybook` → http://localhost:6007
+- Database: **none**
+- Task prefix: **M**. Prompt: `docs/CURSOR_PROMPT.md`
+- Publish: `docs/NPM_PUBLISH.md` (ask X05).
+
